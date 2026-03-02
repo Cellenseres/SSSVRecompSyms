@@ -10562,9 +10562,9 @@ symbols = [
     { name = "D_803F2C28", vram = 0x803F2C28 },
     { name = "D_803F2C3C", vram = 0x803F2C3C },
     { name = "D_803F2C40", vram = 0x803F2C40 },
-    { name = "gCameraEyeX", vram = 0x803F2C44 }, # was: D_803F2C44
-    { name = "gCameraEyeY", vram = 0x803F2C48 }, # was: D_803F2C48
-    { name = "gCameraEyeZ", vram = 0x803F2C4C }, # was: D_803F2C4C
+    { name = "gCameraEyeWorldX", vram = 0x803F2C44 }, # was: D_803F2C44
+    { name = "gCameraEyeWorldZ", vram = 0x803F2C48 }, # was: D_803F2C48
+    { name = "gCameraEyeWorldY", vram = 0x803F2C4C }, # was: D_803F2C4C
     { name = "D_803F2C5C", vram = 0x803F2C5C },
     { name = "D_803F2C60", vram = 0x803F2C60 },
     { name = "D_803F2C6C", vram = 0x803F2C6C },
