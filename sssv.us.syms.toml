@@ -8,7 +8,7 @@ size = 0x388D0
 functions = [
     { name = "recomp_entrypoint", vram = 0x80125900, size = 0x50 },
     { name = "func_80125950", vram = 0x80125950, size = 0x30 },
-    { name = "build_rotate_scale_translate_matrix", vram = 0x80125980, size = 0x660 }, # was: func_80125980
+    { name = "build_rotate_scale_translate_matrix", vram = 0x80125980, size = 0x660 },
     { name = "func_80125FE0", vram = 0x80125FE0, size = 0x37C },
     { name = "func_8012635C", vram = 0x8012635C, size = 0x2C },
     { name = "func_80126388", vram = 0x80126388, size = 0x93C },
@@ -181,7 +181,7 @@ functions = [
     { name = "thread1", vram = 0x80135604, size = 0xBC },
     { name = "func_801356C0", vram = 0x801356C0, size = 0x618 },
     { name = "draw_chunked_image", vram = 0x80135CD8, size = 0x3F0 },
-    { name = "func_801360C8", vram = 0x801360C8, size = 0x350 },
+    { name = "draw_sprite_with_prim_depth", vram = 0x801360C8, size = 0x350 },
     { name = "init_sprite2d_render_zdepth", vram = 0x80136418, size = 0x2A4 },
     { name = "init_sprite2d_render", vram = 0x801366BC, size = 0x27C },
     { name = "draw_sprite", vram = 0x80136938, size = 0x39C },
@@ -1148,7 +1148,7 @@ functions = [
     { name = "func_80310E10_7224C0", vram = 0x80310E10, size = 0xD4 },
     { name = "func_80310EE4_722594", vram = 0x80310EE4, size = 0x74 },
     { name = "func_80310F58_722608", vram = 0x80310F58, size = 0x2F4 },
-    { name = "sample_ground_height_at_xz", vram = 0x8031124C, size = 0x308 }, # was: func_8031124C_7228FC
+    { name = "sample_ground_height_at_xz", vram = 0x8031124C, size = 0x308 },
     { name = "func_80311554_722C04", vram = 0x80311554, size = 0x4D8 },
     { name = "func_80311A2C_7230DC", vram = 0x80311A2C, size = 0x7C },
     { name = "func_80311AA8_723158", vram = 0x80311AA8, size = 0x150 },
@@ -1279,11 +1279,11 @@ functions = [
     { name = "load_animal", vram = 0x8032AAF0, size = 0xC8 },
     { name = "check_and_set_species_encountered", vram = 0x8032ABB8, size = 0x90 },
     { name = "set_species_as_encountered", vram = 0x8032AC48, size = 0x50 },
-    { name = "cheat_activate_scale_pulse_effect", vram = 0x8032AC98, size = 0x19C }, # was: func_8032AC98_73C348
-    { name = "cheat_activate_energy_camera_effect", vram = 0x8032AE34, size = 0x6C }, # was: func_8032AE34_73C4E4
-    { name = "cheat_activate_big_head_effect", vram = 0x8032AEA0, size = 0x1E4 }, # was: func_8032AEA0_73C550
-    { name = "cheat_toggle_mystery_bear", vram = 0x8032B084, size = 0x144 }, # was: func_8032B084_73C734
-    { name = "cheat_clear_camera_effects", vram = 0x8032B1C8, size = 0x18 }, # was: func_8032B1C8_73C878
+    { name = "cheat_activate_scale_pulse_effect", vram = 0x8032AC98, size = 0x19C },
+    { name = "cheat_activate_energy_camera_effect", vram = 0x8032AE34, size = 0x6C },
+    { name = "cheat_activate_big_head_effect", vram = 0x8032AEA0, size = 0x1E4 },
+    { name = "cheat_toggle_mystery_bear", vram = 0x8032B084, size = 0x144 },
+    { name = "cheat_clear_camera_effects", vram = 0x8032B1C8, size = 0x18 },
     { name = "func_8032B1E0_73C890", vram = 0x8032B1E0, size = 0xB18 },
     { name = "func_8032BCF8_73D3A8", vram = 0x8032BCF8, size = 0x64 },
     { name = "func_8032BD5C_73D40C", vram = 0x8032BD5C, size = 0xCC },
@@ -1349,7 +1349,7 @@ functions = [
     { name = "increase_player_camera_distance", vram = 0x8033F294, size = 0x58 },
     { name = "save_player_camera_distance", vram = 0x8033F2EC, size = 0x14 },
     { name = "restore_player_camera_distance", vram = 0x8033F300, size = 0x80 },
-    { name = "update_world_camera_transform", vram = 0x8033F380, size = 0x1A88 }, # was: func_8033F380_750A30
+    { name = "update_world_camera_transform", vram = 0x8033F380, size = 0x1A88 },
     { name = "func_80340E08_7524B8", vram = 0x80340E08, size = 0x9C },
     { name = "func_80340EA4_752554", vram = 0x80340EA4, size = 0x718 },
     { name = "func_803415BC_752C6C", vram = 0x803415BC, size = 0xC24 },
