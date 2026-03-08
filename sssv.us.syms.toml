@@ -8,7 +8,7 @@ size = 0x388D0
 functions = [
     { name = "recomp_entrypoint", vram = 0x80125900, size = 0x50 },
     { name = "func_80125950", vram = 0x80125950, size = 0x30 },
-    { name = "build_rotate_scale_translate_matrix", vram = 0x80125980,
+    { name = "build_rotate_scale_translate_matrix", vram = 0x80125980 },
     { name = "func_80125FE0", vram = 0x80125FE0, size = 0x37C },
     { name = "func_8012635C", vram = 0x8012635C, size = 0x2C },
     { name = "func_80126388", vram = 0x80126388, size = 0x93C },
