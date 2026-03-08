@@ -360,14 +360,14 @@ symbols = [
     { name = "D_80151C38", vram = 0x80151C38 },
     { name = "D_80152040", vram = 0x80152040 },
     { name = "D_80152248", vram = 0x80152248 },
-    { name = "gTrigLut", vram = 0x80152350 }, # was: D_80152350
+    { name = "gTrigLut", vram = 0x80152350 },
     { name = "core_mtx_c", vram = 0x80152350 },
     { name = "D_80152788", vram = 0x80152788 },
     { name = "D_801528F0", vram = 0x801528F0 },
     { name = "D_80152A58", vram = 0x80152A58 },
     { name = "D_80152BC0", vram = 0x80152BC0 },
     { name = "D_80152C74", vram = 0x80152C74 },
-    { name = "D_80152C78", vram = 0x80152C78 },
+    { name = "gSineTable256", vram = 0x80152C78 },
     { name = "core_string_c", vram = 0x80152E80 },
     { name = "core_segments_c", vram = 0x80152E90 },
     { name = "gCurrentOverlay", vram = 0x80152E90 },
@@ -394,7 +394,7 @@ symbols = [
     { name = "img_D_80153AD0_rgba16__png", vram = 0x80153AD0 },
     { name = "_binary_build_assets_img_D_801532D0_rgba16_png_end", vram = 0x80153AD0 },
     { name = "data_D_801542D0_c", vram = 0x801542D0 },
-    { name = "gIntroLogoTextureSetupDl", vram = 0x801542D0 }, # was: D_801542D0
+    { name = "gIntroLogoTextureSetupDl", vram = 0x801542D0 },
     { name = "_binary_build_assets_img_D_80153AD0_rgba16_png_end", vram = 0x801542D0 },
     { name = "data_D_80154330_c", vram = 0x80154330 },
     { name = "D_80154330", vram = 0x80154330 },
@@ -446,10 +446,10 @@ symbols = [
     { name = "_binary_build_assets_img_331C0_rgba16_png_start", vram = 0x80157AC0 },
     { name = "data_D_801582C0_c", vram = 0x801582C0 },
     { name = "_binary_build_assets_img_331C0_rgba16_png_end", vram = 0x801582C0 },
-    { name = "gPrimitiveFillRenderSetupDl", vram = 0x801582C0 }, # was: D_801582C0
+    { name = "gPrimitiveFillRenderSetupDl", vram = 0x801582C0 },
     { name = "D_80158420", vram = 0x80158420 },
     { name = "data_D_80158420_c", vram = 0x80158420 },
-    { name = "gSprite2DRenderSetupDl", vram = 0x801584A0 }, # was: D_801584A0
+    { name = "gSprite2DRenderSetupDl", vram = 0x801584A0 },
     { name = "data_D_801584A0_c", vram = 0x801584A0 },
     { name = "core_thread9_c", vram = 0x80158540 },
     { name = "D_80158540", vram = 0x80158540 },
@@ -522,15 +522,15 @@ symbols = [
     { name = "D_801D9E60", vram = 0x801D9E60 },
     { name = "D_801D9E64", vram = 0x801D9E64 },
     { name = "D_801D9E68", vram = 0x801D9E68 },
-    { name = "gMenuSegmentBase", vram = 0x801D9E6C }, # was: D_801D9E6C
-    { name = "gFontSegmentBase", vram = 0x801D9E70 }, # was: D_801D9E70
-    { name = "gSegment1Base", vram = 0x801D9E74 }, # was: D_801D9E74
-    { name = "gSegment5Base", vram = 0x801D9E78 }, # was: D_801D9E78
+    { name = "gMenuSegmentBase", vram = 0x801D9E6C },
+    { name = "gFontSegmentBase", vram = 0x801D9E70 },
+    { name = "gSegment1Base", vram = 0x801D9E74 },
+    { name = "gSegment5Base", vram = 0x801D9E78 },
     { name = "gMainDL", vram = 0x801D9E7C },
     { name = "D_801D9E80_padding", vram = 0x801D9E80 },
     { name = "gDebugTextBuffer", vram = 0x802042B0 },
     { name = "D_802042EC", vram = 0x802042EC },
-    { name = "gNoControllerMessageText", vram = 0x802042F0 }, # was: D_802042F0
+    { name = "gNoControllerMessageText", vram = 0x802042F0 },
     { name = "D_80204368", vram = 0x80204368 },
     { name = "D_802043E0", vram = 0x802043E0 },
     { name = "gVIData", vram = 0x802053E0 },
@@ -758,9 +758,9 @@ symbols = [
     { name = "data_D_01003970_3D240_c", vram = 0x01003970 },
     { name = "D_01003998_3D268", vram = 0x01003998 },
     { name = "D_010039F8_3D2C8", vram = 0x010039F8 },
-    { name = "gFovMaskRenderSetupDl", vram = 0x01003A28 }, # was: D_01003A28_3D2F8
+    { name = "gFovMaskRenderSetupDl", vram = 0x01003A28 },
     { name = "data_D_01003A40_3D310_c", vram = 0x01003A40 },
-    { name = "gRestoreRgba16TextureLutDl", vram = 0x01003A40 }, # was: D_01003A40_3D310
+    { name = "gRestoreRgba16TextureLutDl", vram = 0x01003A40 },
     { name = "D_01003A58_3D328", vram = 0x01003A58 },
     { name = "D_01003AB0_3D380", vram = 0x01003AB0 },
     { name = "data_D_01003AB0_3D380_c", vram = 0x01003AB0 },
@@ -772,17 +772,17 @@ symbols = [
     { name = "data_D_01003B70_3D440_c", vram = 0x01003B70 },
     { name = "D_01003BB8_3D488", vram = 0x01003BB8 },
     { name = "_binary_build_assets_img_D_01003BD0_3D4A0_ci4_png_start", vram = 0x01003BD0 },
-    { name = "img_fov_masks_ci4__png", vram = 0x01003BD0 }, # was: img_D_01003BD0_3D4A0_ci4__png
+    { name = "img_fov_masks_ci4__png", vram = 0x01003BD0 },
     { name = "_binary_build_assets_img_D_01003BD0_3D4A0_pal_start", vram = 0x01004250 },
     { name = "_binary_build_assets_img_D_01003BD0_3D4A0_ci4_png_end", vram = 0x01004250 },
     { name = "img_D_01003BD0_3D4A0_pal", vram = 0x01004250 },
     { name = "_binary_build_assets_img_D_01003BD0_3D4A0_pal_end", vram = 0x01004270 },
     { name = "data_D_01004270_3DB40_c", vram = 0x01004270 },
-    { name = "gOverlay3DRenderSetupDl", vram = 0x01004270 }, # was: D_01004270_3DB40
+    { name = "gOverlay3DRenderSetupDl", vram = 0x01004270 },
     { name = "D_01004308_3DBD8", vram = 0x01004308 },
     { name = "data_D_01004360_3DC30_c", vram = 0x01004360 },
     { name = "D_01004360_3DC30", vram = 0x01004360 },
-    { name = "gWorldChunkLodSetupDl", vram = 0x010043A0 }, # was: D_010043A0_3DC70
+    { name = "gWorldChunkLodSetupDl", vram = 0x010043A0 },
     { name = "data_D_010043A0_3DC70_c", vram = 0x010043A0 },
     { name = "D_01004458_3DD28", vram = 0x01004458 },
     { name = "data_D_01004510_3DDE0_c", vram = 0x01004510 },
@@ -9230,22 +9230,22 @@ symbols = [
     { name = "D_80299C70_63D310", vram = 0x80299C70 },
     { name = "D_80299C84_63D324", vram = 0x80299C84 },
     { name = "D_80299C90_63D330", vram = 0x80299C90 },
-    { name = "gIntroRevealQuadDl", vram = 0x80299CD0 }, # was: D_80299CD0_63D370
+    { name = "gIntroRevealQuadDl", vram = 0x80299CD0 },
     { name = "D_80299CE8_63D388", vram = 0x80299CE8 },
     { name = "D_80299D00_63D3A0", vram = 0x80299D00 },
     { name = "D_80299D18_63D3B8", vram = 0x80299D18 },
-    { name = "gIntroLogoLight", vram = 0x80299D50 }, # was: D_80299D50_63D3F0
+    { name = "gIntroLogoLight", vram = 0x80299D50 },
     { name = "D_80299D68_63D408", vram = 0x80299D68 },
     { name = "D_80299D90_63D430", vram = 0x80299D90 },
     { name = "gIntroCamEyeX", vram = 0x80299DB8 },
     { name = "gIntroCamEyeY", vram = 0x80299DBC },
     { name = "gIntroCamEyeZ", vram = 0x80299DC0 },
-    { name = "gIntroLogoPosX", vram = 0x80299DC4 }, # was: D_80299DC4_63D464
-    { name = "gIntroLogoPosY", vram = 0x80299DC8 }, # was: D_80299DC8_63D468
-    { name = "gIntroLogoPosZ", vram = 0x80299DCC }, # was: D_80299DCC_63D46C
-    { name = "gIntroLogoRotX", vram = 0x80299DD0 }, # was: D_80299DD0_63D470
-    { name = "gIntroLogoRotY", vram = 0x80299DD4 }, # was: D_80299DD4_63D474
-    { name = "gIntroLogoRotZ", vram = 0x80299DD8 }, # was: D_80299DD8_63D478
+    { name = "gIntroLogoPosX", vram = 0x80299DC4 },
+    { name = "gIntroLogoPosY", vram = 0x80299DC8 },
+    { name = "gIntroLogoPosZ", vram = 0x80299DCC },
+    { name = "gIntroLogoRotX", vram = 0x80299DD0 },
+    { name = "gIntroLogoRotY", vram = 0x80299DD4 },
+    { name = "gIntroLogoRotZ", vram = 0x80299DD8 },
     { name = "gIntroScaleX", vram = 0x80299DDC },
     { name = "gIntroScaleY", vram = 0x80299DE0 },
     { name = "gIntroScaleZ", vram = 0x80299DE4 },
@@ -10190,9 +10190,9 @@ symbols = [
     { name = "gTerminalFadeStep", vram = 0x803B6314 },
     { name = "gTerminalPhase", vram = 0x803B6318 },
     { name = "gTerminalTransitionCounter", vram = 0x803B631C },
-    { name = "dna", vram = 0x803B6320 },
+    { name = "gTerminalDnaGlyphs", vram = 0x803B6320 },
     { name = "sssv_terminal_background_c", vram = 0x803B6320 },
-    { name = "terminal_asm", vram = 0x803B6328 },
+    { name = "gTerminalAsmLines", vram = 0x803B6328 },
     { name = "D_803B6450_7C7B00", vram = 0x803B6444 },
     { name = "foo", vram = 0x803B6554 },
     { name = "gTerminalStatText", vram = 0x803B6560 },
@@ -10200,8 +10200,8 @@ symbols = [
     { name = "D_803B65C0_7C7C70", vram = 0x803B65C0 },
     { name = "D_803B65D8_7C7C88", vram = 0x803B65D8 },
     { name = "D_803B65F0_7C7CA0", vram = 0x803B65F0 },
-    { name = "gTerminalDnaOpaqueRenderSetupDl", vram = 0x803B6608 }, # was: D_803B6608_7C7CB8
-    { name = "gTerminalDnaInterlaceRenderSetupDl", vram = 0x803B66B8 }, # was: D_803B66B8_7C7D68
+    { name = "gTerminalDnaOpaqueRenderSetupDl", vram = 0x803B6608 },
+    { name = "gTerminalDnaInterlaceRenderSetupDl", vram = 0x803B66B8 },
     { name = "overlay2_7A0DA0_c", vram = 0x803B66F0 },
     { name = "gOverlayViewport", vram = 0x803B66F0 },
     { name = "D_803B6700_7C7DB0_007C7DB0", vram = 0x803B6700 },
@@ -10562,9 +10562,9 @@ symbols = [
     { name = "D_803F2C28", vram = 0x803F2C28 },
     { name = "D_803F2C3C", vram = 0x803F2C3C },
     { name = "D_803F2C40", vram = 0x803F2C40 },
-    { name = "gCameraEyeWorldX", vram = 0x803F2C44 }, # was: D_803F2C44
-    { name = "gCameraEyeWorldZ", vram = 0x803F2C48 }, # was: D_803F2C48
-    { name = "gCameraEyeWorldY", vram = 0x803F2C4C }, # was: D_803F2C4C
+    { name = "gCameraEyeWorldX", vram = 0x803F2C44 },
+    { name = "gCameraEyeWorldZ", vram = 0x803F2C48 },
+    { name = "gCameraEyeWorldY", vram = 0x803F2C4C },
     { name = "D_803F2C5C", vram = 0x803F2C5C },
     { name = "D_803F2C60", vram = 0x803F2C60 },
     { name = "D_803F2C6C", vram = 0x803F2C6C },
@@ -10653,7 +10653,7 @@ symbols = [
     { name = "gTerminalTextScrollState", vram = 0x803F6478 },
     { name = "gTerminalStatLabels", vram = 0x803F6500 },
     { name = "gTerminalStatTextX", vram = 0x803F6548 },
-    { name = "D_803F6570", vram = 0x803F6570 },
+    { name = "gTerminalDnaSimulation", vram = 0x803F6570 },
     { name = "gOverlayMenuState", vram = 0x803F6680 },
     { name = "gOverlayUiState", vram = 0x803F66B8 },
     { name = "D_803F6704", vram = 0x803F6704 },
@@ -13809,7 +13809,7 @@ symbols = [
     { name = "D_80156AC0", vram = 0x80156AC0 },
     { name = "D_801572C0", vram = 0x801572C0 },
     { name = "D_80157AC0", vram = 0x80157AC0 },
-    { name = "gOpaqueLit3DRenderSetupDl", vram = 0x80158368 }, # was: D_80158368
+    { name = "gOpaqueLit3DRenderSetupDl", vram = 0x80158368 },
     { name = "D_80158550", vram = 0x80158550 },
     { name = "D_80159980", vram = 0x80159980 },
     { name = "D_8015A6A0", vram = 0x8015A6A0 },
@@ -13988,7 +13988,7 @@ symbols = [
     { name = "D_802C6C90_66A330", vram = 0x802C6C90 },
     { name = "D_802D00F0_673790", vram = 0x802D00F0 },
     { name = "D_802DA900_67DFA0", vram = 0x802DA900 },
-    { name = "gIntroLogoModelDl", vram = 0x802EEB20 }, # was: D_802EEB20_6921C0
+    { name = "gIntroLogoModelDl", vram = 0x802EEB20 },
     { name = "D_802F4CA0_698340", vram = 0x802F4CA0 },
     { name = "D_802FD920_6A0FC0", vram = 0x802FD920 },
     { name = "D_802FE520_6A1BC0", vram = 0x802FE520 },
