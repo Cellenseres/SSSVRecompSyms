@@ -10393,7 +10393,7 @@ symbols = [
     { name = "D_803D2DFC_000129DB", vram = 0x803D2DFC },
     { name = "D_803D2DFE_000129DD", vram = 0x803D2DFE },
     { name = "D_803D2E00_000129DF", vram = 0x803D2E00 },
-    { name = "D_803D2E08", vram = 0x803D2E08 },
+    { name = "gDynamicTextureBillboardQueue", vram = 0x803D2E08 },
     { name = "D_803D3428:1_00013007", vram = 0x803D3428 },
     { name = "D_803D342C:1_0001300B", vram = 0x803D342C },
     { name = "D_803D3430_0001300F", vram = 0x803D3430 },
